@@ -5,6 +5,7 @@ use Think\Controller;
 
 use Admin\Model\ClassifyModel;
 use Admin\Model\ArticleModel;
+use Admin\Model\NoticeModel;
 
 class IndexController extends Controller {
 	/**
@@ -134,7 +135,7 @@ class IndexController extends Controller {
 	    }else{
 	        $p=$_GET['p'];
 	    }
-	    $list = $Article->order('id')->page($p.',10')->select();// 查询满足要求的总记录数
+	    $list = $Article->order('id DESC')->page($p.',10')->select();// 查询满足要求的总记录数
 	    $this->assign('list',$list);// 赋值数据集
 	    $count = $Article->count();
 	    $Page = new \Think\Page($count,10);
@@ -143,8 +144,193 @@ class IndexController extends Controller {
 	    $this->display();
 	}
 
+	/**
+	 * 显示修改的文章内容
+	 */
+	public function exitarticle(){
+		$id = $_GET["id"];
+		$article = new ArticleModel();
+		$data = $article->findArticle($id);
+		$classify = new ClassifyModel();
+		$fenlei = $classify->classifylist();
+		$this->assign('fenlei',$fenlei);
+		$this->assign('data',$data);
+		$this->display();
+	}
 
+	/**
+	 * 处理文章的修改数据
+	 * @return [type] [description]
+	 */
+	public function doExitArticle(){
+		$data["id"] = $_POST["id"];
+		$data["title"] = $_POST["title"];
+		$data["classify"] = $_POST["classify"];
+		$data["exit_time"] = date('Y-m-d h:i:s', time());
+		$data["content"] = $_POST["content"];
+		$article = new ArticleModel();
+		$i = $article->exitArticle($data);
+		if($i>0){
+			$this->success("修改成功",U("Admin/Index/articlelist"));
+		}else{
+			$this->error("修改失败");
+		}
+	}
 
+	/**
+	 * 置顶
+	 * @return [type] [description]
+	 */
+	public function stick(){
+		$data = $_GET;
+		$article = new ArticleModel();
+		$i = $article->exitArticle($data);
+		if($i>0){
+			$this->success("操作成功",U("Admin/Index/articlelist"));
+		}else{
+			$this->error("操作失败");
+		}
+	}
+
+	/**
+	 * 删除文章
+	 * @return [type] [description]
+	 */
+	public function delarticle(){
+		$id = $_GET["id"];
+		$article = new ArticleModel();
+		$i = $article->delarticle($id);
+		if($i>0){
+			$this->success("删除成功");
+		}else{
+			$this->error("删除失败");
+		}
+	}
+
+	/**
+	 * 显示发布公告
+	 */
+	public function addNotice(){
+		$this->display();
+	}
+
+	/**
+	 * 处理发布公告信息
+	 * @return [type] [description]
+	 */
+	public function doAddNotice(){
+		$data = $_POST;
+		$data["name"] = session('user')["username"];
+		$data["create_time"] = date('Y-m-d h:i:s', time());
+		$data['exit_time'] = date('Y-m-d h:i:s', time());
+		$notice = new NoticeModel();
+		$i = $notice->addNotice($data);
+		if($i>0){
+			$this->success("添加成功");
+		}else{
+			$this->error("添加失败");
+		}
+	}
+
+	/**
+	 * 显示公告列表
+	 * @return [type] [description]
+	 */
+	public function noticelist(){
+		$Notice = M('Notice');//实例化Goods数据对象  Goods是你的表名
+	  //p是前台传值过来的参数，也就是页码
+	    if($_GET['p']==NULL){
+	        $p=1;
+	    }else{
+	        $p=$_GET['p'];
+	    }
+	    $list = $Notice->order('id DESC')->page($p.',10')->select();// 查询满足要求的总记录数
+	    $this->assign('list',$list);// 赋值数据集
+	    $count = $Notice->count();
+	    $Page = new \Think\Page($count,10);
+	    $show = $Page->show();
+	    $this->assign('page',$show);
+	    $this->display();
+	}
+
+	/**
+	 * 显示修改公告的页面
+	 * @return [type] [description]
+	 */
+	public function exitnotice(){
+		$id = $_GET["id"];
+		$notice = new NoticeModel();
+		$data = $notice->findNotice($id);
+		$this->assign('data',$data);
+		$this->display();
+	}
+
+	/**
+	 * 处理公告修改信息
+	 * @return [type] [description]
+	 */
+	public function doExitNotice(){
+		$data = $_POST;
+		$data["exit_time"] = date('Y-m-d h:i:s', time());
+		$notice = new NoticeModel();
+		$i = $notice->exitNotice($data);
+		if($i>0){
+			$this->success("修改成功",U('Admin/Index/noticelist'));
+		}else{
+			$this->error("修改失败");
+		}
+	}
+
+	/**
+	 * 删除公告
+	 * @return [type] [description]
+	 */
+	public function delnotice(){
+		$id = $_GET["id"];
+		$notice = new NoticeModel();
+		$i = $notice->delNotice($id);
+		if($i>0){
+			$this->success("删除成功");
+		}else{
+			$this->error("删除失败");
+		}
+	}
+
+	/**
+	 * 改变公告状态
+	 * @return [type] [description]
+	 */
+	public function noticestate(){
+		$data = $_GET;
+		$Notice = new NoticeModel();
+		$i = $Notice->exitNotice($data);
+		if($i>0){
+			$this->success("操作成功");
+		}else{
+			$this->error("操作失败");
+		}
+	}
+
+	/**
+	 * 显示用户列表
+	 * @return [type] [description]
+	 */
+	public function userlist(){
+		$User = M('User');//实例化Goods数据对象  Goods是你的表名
+	  //p是前台传值过来的参数，也就是页码
+	    if($_GET['p']==NULL){
+	        $p=1;
+	    }else{
+	        $p=$_GET['p'];
+	    }
+	    $list = $User->order('id DESC')->page($p.',10')->select();// 查询满足要求的总记录数
+	    $this->assign('list',$list);// 赋值数据集
+	    $count = $User->count();
+	    $Page = new \Think\Page($count,10);
+	    $show = $Page->show();
+	    $this->assign('page',$show);
+	    $this->display();
+	}
 
 	/////////////////////////////////////富文本编辑器/////////////////////////////////////
 	public function save_info(){  

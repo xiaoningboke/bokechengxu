@@ -58,27 +58,26 @@
                                 <a href="javascript:;" data-url="{:U('Admin/Index/addFenlei')}" data-icon="fa-user" data-title="添加分类" kit-target data-id='2'><i class="fa fa-user" aria-hidden="true"></i><span> 添加分类</span></a>
                             </dd>
                             <dd>
-                                <a href="javascript:;" data-url="nav.html" data-icon="&#xe628;" data-title="文章列表" kit-target data-id='3'><i class="layui-icon">&#xe628;</i><span> 文章列表</span></a>
+                                <a href="javascript:;" data-url="{:U('Admin/Index/articlelist')}" data-icon="&#xe628;" data-title="文章列表" kit-target data-id='3'><i class="layui-icon">&#xe628;</i><span> 文章列表</span></a>
                             </dd>
                             <dd>
                                 <a href="javascript:;" data-url="{:U('Admin/Index/addArticle')}" data-icon="&#xe614;" data-title="添加文章" kit-target data-id='4'><i class="layui-icon">&#xe614;</i><span> 添加文章</span></a>
                             </dd>
-                            <dd>
-                                <a href="javascript:;" kit-target data-options="{url:'https://www.baidu.com',icon:'&#xe658;',title:'百度一下',id:'5'}"><i class="layui-icon">&#xe658;</i><span> 百度一下</span></a>
-                            </dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item layui-nav-itemed">
-                        <a href="javascript:;"><i class="fa fa-plug" aria-hidden="true"></i><span> 组件</span></a>
+                        <a href="javascript:;"><i class="fa fa-plug" aria-hidden="false"></i><span> 公告管理</span></a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" kit-target data-options="{url:'navbar.html',icon:'&#xe658;',title:'Navbar',id:'6'}"><i class="layui-icon">&#xe658;</i><span> Navbar</span></a></dd>
-                            <dd><a href="javascript:;" kit-target data-options="{url:'tab.html',icon:'&#xe658;',title:'TAB',id:'7'}"><i class="layui-icon">&#xe658;</i><span> Tab</span></a></dd>
-                            <dd><a href="javascript:;" kit-target data-options="{url:'onelevel.html',icon:'&#xe658;',title:'OneLevel',id:'50'}"><i class="layui-icon">&#xe658;</i><span> OneLevel</span></a></dd>
-                            <dd><a href="javascript:;" kit-target data-options="{url:'app.html',icon:'&#xe658;',title:'App',id:'8'}"><i class="layui-icon">&#xe658;</i><span> app.js主入口</span></a></dd>
+                            <dd><a href="javascript:;" kit-target data-options="{url:'{:U('Admin/Index/noticelist')}',icon:'&#xe658;',title:'公告列表',id:'6'}"><i class="layui-icon">&#xe658;</i><span> 公告列表</span></a></dd>
+                            <dd><a href="javascript:;" kit-target data-options="{url:'{:U('Admin/Index/addNotice')}',icon:'&#xe658;',title:'发布公告',id:'7'}"><i class="layui-icon">&#xe658;</i><span> 发布公告</span></a></dd>
                         </dl>
                     </li>
                     <li class="layui-nav-item">
                         <a href="javascript:;" data-url="/components/table/table.html" data-name="table" kit-loader><i class="fa fa-plug" aria-hidden="true"></i><span> 表格(page)</span></a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" kit-target data-options="{url:'{:U('Admin/Index/noticelist')}',icon:'&#xe658;',title:'公告列表',id:'6'}"><i class="layui-icon">&#xe658;</i><span> 公告列表</span></a></dd>
+                            <dd><a href="javascript:;" kit-target data-options="{url:'{:U('Admin/Index/addNotice')}',icon:'&#xe658;',title:'发布公告',id:'7'}"><i class="layui-icon">&#xe658;</i><span> 发布公告</span></a></dd>
+                        </dl>
                     </li>
                     <li class="layui-nav-item">
                         <a href="javascript:;" data-url="/views/form.html" data-name="form" kit-loader><i class="fa fa-plug" aria-hidden="true"></i><span> 表单(page)</span></a>

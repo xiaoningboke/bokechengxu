@@ -13,9 +13,9 @@
     <table class="layui-table"lay-filter="test" id="test">
         <thead>
             <tr>
-                <th lay-data="{field:'id', width:180, sort: true}">文章标题</th>
-                <th lay-data="{field:'id', width:180, sort: true}">置顶</th>
-                <th lay-data="{field:'id', width:180, sort: true}">分类</th>
+                <th lay-data="{field:'id', width:180, sort: true}">公告标题</th>
+                <th lay-data="{field:'id', width:180, sort: true}">状态</th>
+                <th lay-data="{field:'id', width:180, sort: true}">发布者</th>
                 <th lay-data="{field:'id', width:80, sort: true}">创建时间</th>
                 <th lay-data="{field:'id', width:80, sort: true}">修改时间</th>
                 <th lay-data="{field:'username', width:80}">操作</th>
@@ -25,20 +25,20 @@
             <foreach name="list" item="vo">
                 <tr>
                     <td>{$vo.title}</td>
-                    <if condition="($vo.stick eq 0)"> <td>没有置顶</td>
-                    <else />  <td>已经置顶</td>
+                    <if condition="($vo.state eq 0)"> <td>显示</td>
+                    <else />  <td>隐藏</td>
                     </if>
-                    <td>{$vo.classify}</td>
+                    <td>{$vo.name}</td>
                     <td>{$vo.create_time}</td>
                     <td>{$vo.exit_time}</td>
                     <td>
-                        <a href="{:U('Admin/Index/exitarticle',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">修改</a>
-                        <a href="{:U('Admin/Index/delarticle',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">删除</a>
+                        <a href="{:U('Admin/Index/exitnotice',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">修改</a>
+                        <a href="{:U('Admin/Index/delnotice',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">删除</a>
                         <a href="#" class="layui-btn layui-btn-primary">预览</a>
-                        <if condition="($vo.stick eq 0)">
-                            <a href="{:U('Admin/Index/stick',array('id'=>$vo[id],'stick'=>1))}" class="layui-btn layui-btn-primary">置顶</a>
+                        <if condition="($vo.state eq 0)">
+                            <a href="{:U('Admin/Index/noticestate',array('id'=>$vo[id],'state'=>1))}" class="layui-btn layui-btn-primary">隐藏</a>
                         <else />
-                            <a href="{:U('Admin/Index/stick',array('id'=>$vo[id],'stick'=>0))}" class="layui-btn layui-btn-primary">取消置顶</a>
+                            <a href="{:U('Admin/Index/noticestate',array('id'=>$vo[id],'state'=>0))}" class="layui-btn layui-btn-primary">显示</a>
                         </if>
                     </td>
                 </tr>
