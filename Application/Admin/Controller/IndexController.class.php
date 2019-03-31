@@ -6,6 +6,7 @@ use Think\Controller;
 use Admin\Model\ClassifyModel;
 use Admin\Model\ArticleModel;
 use Admin\Model\NoticeModel;
+use Admin\Model\UserModel;
 
 class IndexController extends Controller {
 	/**
@@ -332,6 +333,77 @@ class IndexController extends Controller {
 	    $this->display();
 	}
 
+	/**
+	 * 显示修改用户信息
+	 * @return [type] [description]
+	 */
+	public function exitUser(){
+		$id = $_GET["id"];
+		$user = new UserModel();
+		$data = $user->findUser($id);
+		$this->assign('data',$data);
+		$this->display();
+	}
+
+	/**
+	 * 处理用户修改的数据
+	 * @return [type] [description]
+	 */
+	public function doExitUser(){
+		$user = new UserModel();
+		$i = $user->exitUser($_POST);
+		if($i>0){
+			$this->success("操作成功",U("Admin/Index/userlist"));
+		}else{
+			$this->error("操作失败");
+		}
+	}
+
+	/**
+	 * 更新用户各种状态
+	 * @return [type] [description]
+	 */
+	public function userstate(){
+		$data = $_GET;
+		$user = new UserModel();
+		$i = $user->exitUser($data);
+		if($i>0){
+			$this->success("操作成功",U("Admin/Index/userlist"));
+		}else{
+			$this->error("操作失败");
+		}
+	}
+
+	/**
+	 * 重置密码
+	 * @return [type] [description]
+	 */
+	public function resetpassword(){
+		$data["id"] = $_GET["id"];
+		$data["password"] = md5(md5(123456));
+		$user = new UserModel();
+		$i = $user->exitUser($data);
+		if($i>0){
+			$this->success("操作成功",U("Admin/Index/userlist"));
+		}else{
+			$this->error("操作失败");
+		}
+	}
+
+	/**
+	 * 删除用户
+	 * @return [type] [description]
+	 */
+	public function deluser(){
+		$id = $_GET["id"];
+		$user = new UserModel();
+		$i = $user->delUser($id);
+		if($i>0){
+			$this->success("删除成功");
+		}else{
+			$this->error("删除失败");
+		}
+	}
 	/////////////////////////////////////富文本编辑器/////////////////////////////////////
 	public function save_info(){  
    $ueditor_config = json_decode(preg_replace("/\/\*[\s\S]+?\*\//", "",     file_get_contents("./Public/Ueditor/php/config.json")), true);  

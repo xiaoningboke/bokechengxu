@@ -8,37 +8,49 @@
     <link rel="stylesheet" href="__PUBLIC__/css/fenye.css">
 </head>
 
-<body>
-
+<body>   
+    <blockquote class="layui-elem-quote layui-text">
+        重置密码为：123456
+    </blockquote>
     <table class="layui-table"lay-filter="test" id="test">
         <thead>
             <tr>
-                <th lay-data="{field:'id', width:180, sort: true}">公告标题</th>
-                <th lay-data="{field:'id', width:180, sort: true}">状态</th>
-                <th lay-data="{field:'id', width:180, sort: true}">发布者</th>
+                <th lay-data="{field:'id', width:180, sort: true}">用户名</th>
+                <th lay-data="{field:'id', width:180, sort: true}">性别</th>
+                <th lay-data="{field:'id', width:180, sort: true}">手机号</th>
+                <th lay-data="{field:'id', width:80, sort: true}">邮箱</th>
+                <th lay-data="{field:'id', width:80, sort: true}">状态</th>
+                <th lay-data="{field:'id', width:80, sort: true}">身份</th>
                 <th lay-data="{field:'id', width:80, sort: true}">创建时间</th>
-                <th lay-data="{field:'id', width:80, sort: true}">修改时间</th>
                 <th lay-data="{field:'username', width:80}">操作</th>
             </tr>
         </thead>
         <tbody>
             <foreach name="list" item="vo">
                 <tr>
-                    <td>{$vo.title}</td>
-                    <if condition="($vo.state eq 0)"> <td>显示</td>
-                    <else />  <td>隐藏</td>
+                    <td>{$vo.username}</td>
+                    <td>{$vo.sex}</td>
+                    <td>{$vo.phone}</td>
+                    <td>{$vo.email}</td>
+                    <if condition="($vo.state eq 0)"> <td>正常</td>
+                    <else />  <td>冻结</td>
                     </if>
-                    <td>{$vo.name}</td>
+                    <if condition="($vo.identity eq 0)"> <td>普通用户</td>
+                    <else />  <td>管理员</td>
+                    </if>
                     <td>{$vo.create_time}</td>
-                    <td>{$vo.exit_time}</td>
                     <td>
-                        <a href="{:U('Admin/Index/exitnotice',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">修改</a>
-                        <a href="{:U('Admin/Index/delnotice',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">删除</a>
-                        <a href="#" class="layui-btn layui-btn-primary">预览</a>
+                        <a href="{:U('Admin/Index/exituser',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">修改</a>
+                        <a href="{:U('Admin/Index/deluser',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">删除</a>
                         <if condition="($vo.state eq 0)">
-                            <a href="{:U('Admin/Index/noticestate',array('id'=>$vo[id],'state'=>1))}" class="layui-btn layui-btn-primary">隐藏</a>
+                            <a href="{:U('Admin/Index/userstate',array('id'=>$vo[id],'state'=>1))}" class="layui-btn layui-btn-primary">冻结</a>
+                        <else />  <a href="{:U('Admin/Index/userstate',array('id'=>$vo[id],'state'=>0))}" class="layui-btn layui-btn-primary">解封</a>
+                        </if>
+                        <a href="{:U('Admin/Index/resetpassword',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">重置密码</a>
+                        <if condition="($vo.identity eq 0)">
+                            <a href="{:U('Admin/Index/userstate',array('id'=>$vo[id],'identity'=>1))}" class="layui-btn layui-btn-primary">设置为管理员</a>
                         <else />
-                            <a href="{:U('Admin/Index/noticestate',array('id'=>$vo[id],'state'=>0))}" class="layui-btn layui-btn-primary">显示</a>
+                            <a href="{:U('Admin/Index/userstate',array('id'=>$vo[id],'identity'=>0))}" class="layui-btn layui-btn-primary">取消管理员</a>
                         </if>
                     </td>
                 </tr>
