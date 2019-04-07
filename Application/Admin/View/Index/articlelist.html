@@ -34,7 +34,7 @@
                     <td>
                         <a href="{:U('Admin/Index/exitarticle',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">修改</a>
                         <a href="{:U('Admin/Index/delarticle',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">删除</a>
-                        <a href="#" class="layui-btn layui-btn-primary">预览</a>
+                        <a href="{:U('Home/Index/findArticle',array('id'=>$vo[id]))}" class="layui-btn layui-btn-primary">预览</a>
                         <if condition="($vo.stick eq 0)">
                             <a href="{:U('Admin/Index/stick',array('id'=>$vo[id],'stick'=>1))}" class="layui-btn layui-btn-primary">置顶</a>
                         <else />

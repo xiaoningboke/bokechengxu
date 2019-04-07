@@ -10,11 +10,12 @@ class IndexController extends Controller {
      * @return [type] [description]
      */
     public function index(){
-        if(!session('?user')){
+        $this->display();
+        /*if(!session('?user')){
             $this->display();
         }else{
             $this->judgeJump();
-        }
+        }*/
     }
     /**
      * 显示验证码
@@ -78,7 +79,7 @@ class IndexController extends Controller {
      */
     public function judgeJump(){
         if(session('user')["identity"]==0){
-             $this->redirect('Home/Index/index');
+             $this->redirect('User/Index/index');
         }else if(session('user')["identity"]==1){
              $this->redirect('Admin/Index/index');
          }else{

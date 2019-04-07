@@ -1,0 +1,70 @@
+h1 {
+    color: #535353;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 1px dashed #c2c2c2;
+    padding-bottom:10px;
+}
+h3{
+    color: #535353;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 24px;
+}
+.aboutAticle {
+    float: left;
+    width: 700px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #FFF;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    position: relative;
+
+}
+
+.aboutAticle ul li {
+    line-height: 30px;
+    color: #c2c2c2;
+
+    text-transform: uppercase;
+    font-weight: 20px;
+}
+.leaveMassage {
+    float: left;
+    width: 700px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #FFF;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    position: relative;
+}
+.MassageBoard{
+    width: 591px;
+    height: 191px;
+    background: #eee;
+    border:1px solid #CCCCCC;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+.leaveMassage .tj {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    margin-top:40px;
+    border-top-color: #424242 !important;
+    background: #424242 !important;
+    color: #ffffff;
+    border-radius: 7px;
+    outline:none
+}
+
+.f {
+    float:right;
+}

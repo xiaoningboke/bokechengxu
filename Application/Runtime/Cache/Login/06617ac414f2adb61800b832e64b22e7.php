@@ -14,7 +14,7 @@
 <body>
   <div class="box">
      <div class="cnt">
-        <p id="huanying"><span id="cnt_one">欢迎登录</span><span id="cnt_two">现在注册</span></p>
+        <p id="huanying"><span id="cnt_one">欢迎登录</span><a href="<?php echo U('Login/Index/register');?>" id="cnt_two">现在注册</a></p>
         <hr />
         <form class="bs-example bs-example-form" role="form" method="post" action="<?php echo U('Login/Index/login');?>" id= "login">
         <div>
@@ -24,7 +24,7 @@
 		      </div><br>
 		      <div class="input-group">
 			      <span class="input-group-addon"><img src="/bokechengxu/Public/images/suo.png"></span>
-			      <input type="text" class="form-control" name="password" placeholder="请输入您的密码">
+			      <input type="password" class="form-control" name="password" placeholder="请输入您的密码">
 		      </div><br>
 		      <div class="input-group" style="position:absolute;">
 			      

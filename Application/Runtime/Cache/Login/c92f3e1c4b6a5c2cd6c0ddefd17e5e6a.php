@@ -14,7 +14,7 @@
 <body>
   <div class="box">
      <div class="cnt">
-        <p id="huanying"><span id="cnt_one">欢迎注册</span><span id="cnt_two">立即登录</span></p>
+        <p id="huanying"><span id="cnt_one">欢迎注册</span><a href="<?php echo U('Login/Index/index');?>" id="cnt_two">立即登录</a></p>
         <hr />
         <form class="bs-example bs-example-form" role="form" method="post" action="<?php echo U('Login/Index/doregister');?>" id= "register">
         <div>

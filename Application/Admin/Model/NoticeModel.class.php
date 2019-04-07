@@ -47,4 +47,14 @@ class NoticeModel extends Model {
 		return $i;
 	}
 
+	/**
+	 * 查询10条公告信息
+	 * @return [type] [description]
+	 */
+	public function tenNotice(){
+		$Notice = M("Notice");
+		$data = $Notice->limit(10)->select();
+		return $data;
+	}
+
 }

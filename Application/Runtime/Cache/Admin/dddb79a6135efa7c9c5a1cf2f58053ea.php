@@ -32,7 +32,7 @@
                     <td>
                         <a href="<?php echo U('Admin/Index/exitarticle',array('id'=>$vo[id]));?>" class="layui-btn layui-btn-primary">修改</a>
                         <a href="<?php echo U('Admin/Index/delarticle',array('id'=>$vo[id]));?>" class="layui-btn layui-btn-primary">删除</a>
-                        <a href="#" class="layui-btn layui-btn-primary">预览</a>
+                        <a href="<?php echo U('Home/Index/findArticle',array('id'=>$vo[id]));?>" class="layui-btn layui-btn-primary">预览</a>
                         <?php if(($vo["stick"] == 0)): ?><a href="<?php echo U('Admin/Index/stick',array('id'=>$vo[id],'stick'=>1));?>" class="layui-btn layui-btn-primary">置顶</a>
                         <?php else: ?>
                             <a href="<?php echo U('Admin/Index/stick',array('id'=>$vo[id],'stick'=>0));?>" class="layui-btn layui-btn-primary">取消置顶</a><?php endif; ?>

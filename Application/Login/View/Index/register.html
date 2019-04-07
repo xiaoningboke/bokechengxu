@@ -14,7 +14,7 @@
 <body>
   <div class="box">
      <div class="cnt">
-        <p id="huanying"><span id="cnt_one">欢迎注册</span><span id="cnt_two">立即登录</span></p>
+        <p id="huanying"><span id="cnt_one">欢迎注册</span><a href="{:U('Login/Index/index')}" id="cnt_two">立即登录</a></p>
         <hr />
         <form class="bs-example bs-example-form" role="form" method="post" action="{:U('Login/Index/doregister')}" id= "register">
         <div>
@@ -24,11 +24,11 @@
 		      </div><br>
 		      <div class="input-group">
 			      <span class="input-group-addon"><img src="__PUBLIC__/images/suo.png"></span>
-			      <input type="text" class="form-control" name="password" placeholder="请输入您的密码" id="password">
+			      <input type="password" class="form-control" name="password" placeholder="请输入您的密码" id="password">
 		      </div><br>
 		      <div class="input-group">
 			      <span class="input-group-addon"><img src="__PUBLIC__/images/suo.png"></span>
-			      <input type="text" class="form-control" name="newpassword" placeholder="请输入您的确认密码" id="newpassword">
+			      <input type="password" class="form-control" name="newpassword" placeholder="请输入您的确认密码" id="newpassword">
 		      </div><br>
 		      <div class="input-group" style="position:absolute;">
 			      

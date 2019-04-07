@@ -1,0 +1,1191 @@
+[ 2019-04-07T19:07:14+08:00 ] ::1 /bokechengxu/index.php/Home/Index/photo/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_photo` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `xyfw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_photo` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2019-04-07T19:07:16+08:00 ] ::1 /bokechengxu/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: fenlei D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2019-04-07T19:07:17+08:00 ] ::1 /bokechengxu/index.php/Home/Index/index/fenlei/html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' AND `classify` = 'html' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' AND `classify` = 'html' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2019-04-07T19:07:18+08:00 ] ::1 /bokechengxu/index.php/Home/Index/index/fenlei/css.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' AND `classify` = 'css' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' AND `classify` = 'css' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2019-04-07T19:07:18+08:00 ] ::1 /bokechengxu/index.php/Home/Index/index/fenlei/%E8%AE%A1%E7%AE%97%E6%9C%BA.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' AND `classify` = '计算机' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' AND `classify` = '计算机' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2019-04-07T19:07:19+08:00 ] ::1 /bokechengxu/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: fenlei D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0045s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2019-04-07T19:07:29+08:00 ] ::1 /bokechengxu/index.php/Home/Index/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_photo` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 126 行.
+SQL: SELECT * FROM `xyfw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_photo` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2019-04-07T19:07:46+08:00 ] ::1 /bokechengxu/index.php/Home/Index/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_photo` [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 126 行.
+SQL: SELECT * FROM `xyfw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_photo` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2019-04-07T19:07:48+08:00 ] ::1 /bokechengxu/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: fenlei D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0041s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2019-04-07T19:07:56+08:00 ] ::1 /bokechengxu/index.php/Home/Index/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xyfw_photo` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 126 行.
+SQL: SELECT * FROM `xyfw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_photo` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2019-04-07T19:08:09+08:00 ] ::1 /bokechengxu/index.php/Home/Index/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xyfw_photo` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 126 行.
+SQL: SELECT * FROM `xyfw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_photo` LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2019-04-07T19:08:10+08:00 ] ::1 /bokechengxu/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: fenlei D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0053s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2019-04-07T19:08:19+08:00 ] ::1 /bokechengxu/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: fenlei D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2019-04-07T19:08:22+08:00 ] ::1 /bokechengxu/index.php/Home/Index/photo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_photo` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 126 行.
+SQL: SELECT * FROM `xyfw_photo` ORDER BY id DESC LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_photo` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\980ef1ad9279558aa1f36e9ba669bce5.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2019-04-07T19:08:24+08:00 ] ::1 /bokechengxu/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: fenlei D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0044s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2019-04-07T19:28:48+08:00 ] ::1 /bokechengxu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: fenlei D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2019-04-07T19:28:50+08:00 ] ::1 /bokechengxu/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined index: fenlei D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Home\Controller\IndexController.class.php 第 43 行.
+SQL: SELECT * FROM `xyfw_article` WHERE `title` LIKE '%%' ORDER BY stick DESC,id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xyfw_article` WHERE `title` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 37 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 88 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2019-04-07T19:28:53+08:00 ] ::1 /bokechengxu/index.php/Home/Index/findArticle/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `xyfw_article` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `xyfw_article` WHERE ( id = 13 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `xyfw_comment` WHERE ( article_id=13 ) ORDER BY id DESC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant fenlei - assumed 'fenlei' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 20 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 67 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 67 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 67 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+NOTIC: [8] Use of undefined constant article_id - assumed 'article_id' D:\phpStudy\PHPTutorial\WWW\bokechengxu\Application\Runtime\Cache\Home\1a6cc0951d0856a2f6404a63685ff6d5.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2019-04-07T19:28:58+08:00 ] ::1 /bokechengxu/index.php/Home/Index/comment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xyfw_config` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `xyfw_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `xyfw_comment` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `xyfw_comment` ORDER BY id DESC LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `xyfw_notice` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xyfw_notice` LIMIT 10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `xyfw_classify` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `xyfw_classify`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+

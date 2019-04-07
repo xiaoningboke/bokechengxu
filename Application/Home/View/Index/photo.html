@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>{$configdata.name}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/csh.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/public.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/imageLisr.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/fenye.css">
+</head>
+<body>
+<div class="content">
+    <div class="header w">
+         <div class="title">
+                {$configdata.name}
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="{:U('Home/Index/index')}"><li>首页</li></a>
+                    <foreach name="classifyData" item="vo">
+                        <a href="{:U('Home/Index/index',array(fenlei=>$vo[name]))}"><li>{$vo.name}</li></a>
+                    </foreach>
+                    <a href="{:U('Home/Index/photo')}"><li>相册</li></a>
+                </ul>
+            </div>
+    </div>
+    <div class="main w">
+        <foreach name="list" item="vo">
+            <div class="box">
+                <div class="box-top">
+                    <img src="__PUBLIC__/Uploads/{$vo.name}" alt="">
+                </div>
+                <div class="userName">
+                    <span>{$vo.user}</span>
+                </div>
+            </div>
+        </foreach>
+        <div class="result page">{$page}</div>
+    </div>
+</div>
+<footer>
+    <div class="foot">
+   
+    <span class="foot-bottom">{$configdata.bottom}</span>
+    </div>
+</footer>
+</body>
+</html>

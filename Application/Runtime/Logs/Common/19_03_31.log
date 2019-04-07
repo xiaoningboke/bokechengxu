@@ -4,3 +4,45 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
 ERR: 无法加载模块:Admin
 
+[ 2019-03-31T20:47:24+08:00 ] ::1 /bokechengxu/index.php//bokechengxu/Public/images/YouTube.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载模块:Bokechengxu
+
+[ 2019-03-31T20:47:27+08:00 ] ::1 /bokechengxu/index.php//bokechengxu/Public/images/YouTube.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Bokechengxu
+
+[ 2019-03-31T20:47:27+08:00 ] ::1 /bokechengxu/index.php//bokechengxu/Public/images/YouTube.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+ERR: 无法加载模块:Bokechengxu
+
+[ 2019-03-31T20:47:28+08:00 ] ::1 /bokechengxu/index.php//bokechengxu/Public/images/YouTube.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+ERR: 无法加载模块:Bokechengxu
+
+[ 2019-03-31T20:47:28+08:00 ] ::1 /bokechengxu/index.php//bokechengxu/Public/images/YouTube.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:Bokechengxu
+
+[ 2019-03-31T20:47:28+08:00 ] ::1 /bokechengxu/index.php//bokechengxu/Public/images/YouTube.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 无法加载模块:Bokechengxu
+
+[ 2019-03-31T20:47:28+08:00 ] ::1 /bokechengxu/index.php//bokechengxu/Public/images/YouTube.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+ERR: 无法加载模块:Bokechengxu
+

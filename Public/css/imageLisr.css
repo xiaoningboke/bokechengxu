@@ -1,0 +1,41 @@
+.main {
+
+    padding: 20px 0;
+    background: #FFF;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+
+}
+.box {
+    width: 200px;
+    height: 200px;
+    margin-top:30px;
+    border: 2px solid #fff;
+    /*background: #CCCCCC;*/
+    display:inline-block;
+}
+.box-top {
+    padding: 20px 40px;
+    width:110px;
+    height:110px;
+}
+img {
+    width: 110px;
+    height: 110px;
+    /*background: #000;*/
+    display: inline-block;
+    border-radius:110px ;
+}
+.userName {
+    width: 200px;
+    font-size: 10px;
+    line-height: 25px;
+    background: #fff;
+}
+.userName  {
+    display: inline-block;
+    margin:0 auto;
+    text-align: center;
+   /*padding:0 50px;*/
+}

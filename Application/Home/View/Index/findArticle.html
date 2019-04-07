@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>{$configdata.name}</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/csh.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/public.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/article.css">
+</head>
+<body>
+    <div class="content">
+        <div class="header w">
+            <div class="title">
+                {$configdata.name}
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="{:U('Home/Index/index')}"><li>首页</li></a>
+                    <foreach name="classifyData" item="vo">
+                        <a href="{:U('Home/Index/index',array(fenlei=>$vo[name]))}"><li>{$vo.name}</li></a>
+                    </foreach>
+                    <a href="{:U('Home/Index/photo')}"><li>相册</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="mainleft">
+
+            <div class="item">
+                <h3>{$data.title}</h3>
+                <div class="other">
+                    {$data.create_time} | 作者: {$data.user}  | 分类: {$data.classify} | 评论: 2 
+                </div>
+                <div class="cons">
+                    <div class="conleft">
+                        {$data.content}
+                    </div>
+                    <div class="conright">
+                        <div class="f">最后修改时间 <span>{$data.exit_time}</span></div>
+                    </div>
+                </div>
+            </div>
+                <div class="aboutAticle">
+                    <h1>评论列表</h1>
+                    <ul>
+                        <foreach name="commentData" item="vo">
+                            <li>{$vo.content} -- ({$vo.date})</li>
+                        </foreach>
+                    </ul>
+                </div>
+                <div class = "leaveMassage">
+                    <h1>发表留言</h1>
+                    <form action="{:U('Home/Index/comment')}" method="post" accept-charset="utf-8">
+                        <input type="hidden" name="article_id" value="{$data.id}">
+                       <div class="MassageBoard">
+                            <textarea rows="13" cols="80" name="content"></textarea>
+                        </div>
+                        <input class="tj" type="submit" value="提交">
+                    </form>
+                    
+                </div>
+                <div class="clear"></div>
+            </div>
+
+                      <div class="mainright">
+                <div class="sidebar-box clearfix">
+                    <h4>博客公告</h4>
+                    <div class="divSubscribe">
+                        <ul>
+                             <foreach name="noticeData" item="vo">
+                                <li><a href="{:U('Home/Index/findNotice',array('id'=>$vo[id]))}">{$vo.title}</a></li>
+                            </foreach>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sidebar-box clearfix">
+                    <h4>搜索</h4>
+                    <div class="divSubscribe">
+                        <div style="position: relative; margin-top: 10px">
+                            <form action="{:U('Home/Index/index')}" method="post" accept-charset="utf-8">
+                                <input type="text" name="title" size="12" id="edtSearch">
+                                <input type="submit" value="提交" name="btnG" id="btnPost">
+                            </form>
+                            
+                        </div>
+                    </div>
+                    <div style="height: 20px"></div>
+                    <h4>登陆/注册</h4>
+                    <div class="divSubscribe">
+                        <div style="position: relative; margin-top: 10px">
+                            <a href="{:U('Login/Index/index')}">立即登录》》</a><br/>
+                            <a href="{:U('Login/Index/register')}">立即注册》》</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-box clearfix">
+                    <h4>最新留言</h4>
+                    <div class="divSubscribe">
+                        <ul>
+                            <foreach name="tencomment" item="vo">
+                                <li><a href="{:U('Home/Index/findArticle',array('id'=>$vo[article_id]))}">{$vo.content}</a></li>
+                            </foreach>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+<footer>
+    <div class="foot">
+    <span class="foot-bottom">{$configdata.bottom}/span>
+    </div>
+</footer>
+</body>
+</html>

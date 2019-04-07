@@ -7,8 +7,24 @@ use Admin\Model\ClassifyModel;
 use Admin\Model\ArticleModel;
 use Admin\Model\NoticeModel;
 use Admin\Model\UserModel;
+use Admin\Model\ConfigModel;
+use Admin\Model\PhotoModel;
 
 class IndexController extends Controller {
+
+	/**
+	 * 前置操作
+	 * @return [type] [description]
+	 */
+	public function _initialize(){
+         if (!session('?user')) {
+             $this->error('对不起，您还没有登录!请先登录在进行操作',U('Login/Index/index'));
+        }
+        if(session('user')["identity"]!=1){
+            $this->error('对不起 ，您没有权限',U('Login/Index/quit'));
+        }
+    }
+
 	/**
 	 * 显示首页
 	 * @return [type] [description]
@@ -318,7 +334,7 @@ class IndexController extends Controller {
 	 */
 	public function userlist(){
 		$User = M('User');//实例化Goods数据对象  Goods是你的表名
-	  //p是前台传值过来的参数，也就是页码
+	  	//p是前台传值过来的参数，也就是页码
 	    if($_GET['p']==NULL){
 	        $p=1;
 	    }else{
@@ -353,7 +369,7 @@ class IndexController extends Controller {
 		$user = new UserModel();
 		$i = $user->exitUser($_POST);
 		if($i>0){
-			$this->success("操作成功",U("Admin/Index/userlist"));
+			$this->success("操作成功");
 		}else{
 			$this->error("操作失败");
 		}
@@ -404,9 +420,160 @@ class IndexController extends Controller {
 			$this->error("删除失败");
 		}
 	}
+
+	/**
+	 * 修改个人信息
+	 * @return [type] [description]
+	 */
+	public function message(){
+		$id = session('user')["id"];
+		$user = new UserModel();
+		$data = $user->findUser($id);
+		$this->assign('data',$data);
+		$this->display();
+	}
+
+	/**
+	 * 显示修改密码
+	 * @return [type] [description]
+	 */
+	public function exitpassword(){
+		$this->display();
+	}
+
+	/**
+	 * 处理修改密码的数据
+	 * @return [type] [description]
+	 */
+	public function doexitpwd(){
+		$password = $_POST["password"];
+		$oldpassword = $_POST["oldpassword"];
+		$data["id"] = session('user')["id"];
+		$user = new UserModel();
+		$data = $user->findUser(session('user')["id"]);
+		if($data["password"] != md5(md5($oldpassword))){
+			$this->error("原密码错误");
+			exit();
+		}
+		$data["password"] = md5(md5($password));
+		$i = $user->exitUser($data);
+		if($i>0){
+			$this->success("操作成功");
+		}else{
+			$this->error("操作失败");
+		}
+
+	}
+
+	/**
+	 * 显示博客的配置
+	 * @return [type] [description]
+	 */
+	public function findconfig(){
+		$config = new ConfigModel();
+		$data = $config->findconfig();
+		$this->assign('data',$data);
+		$this->display();
+	}
+
+	/**
+	 * 更新网站配置
+	 * @return [type] [description]
+	 */
+	public function updateConfig(){
+		$config = new ConfigModel();
+		$i = $config->updateConfig($_POST);
+		if($i>0){
+			$this->success("操作成功");
+		}else{
+			$this->error("操作失败");
+		}
+	}
+
+	/**
+	 * 显示上传图片
+	 * @return [type] [description]
+	 */
+	public function photo(){
+		$this->display();
+	}
+
+	/**
+	 * 处理图片上传
+	 * @return [type] [description]
+	 */
+	public function addphoto(){
+		$file = $this->upload();
+		$data['name'] = $file['name']['savename'];
+		$data['user'] = session('user')['username'];
+		$data['create_time'] = date('Y-m-d h:i:s', time());
+		$photo = new PhotoModel();
+		$i = $photo->addPhoto($data);
+		if($i>0){
+			$this->success("操作成功");
+		}else{
+			$this->error("操作失败");
+		}
+	}
+
+	/**
+	 * 删除图片
+	 * @return [type] [description]
+	 */
+	public function delphoto(){
+		$id = $_GET["id"];
+		$photo = new PhotoModel();
+		$i = $photo->delphoto($id);
+		if($i>0){
+			$this->success("操作成功");
+		}else{
+			$this->error("操作失败");
+		}
+	}
+
+	/**
+	 * 图片列表
+	 * @return [type] [description]
+	 */
+	public function photolist(){
+		$Photo = M('Photo');//实例化Goods数据对象  Goods是你的表名
+	  	//p是前台传值过来的参数，也就是页码
+	    if($_GET['p']==NULL){
+	        $p=1;
+	    }else{
+	        $p=$_GET['p'];
+	    }
+	    $list = $Photo->order('id DESC')->page($p.',10')->select();// 查询满足要求的总记录数
+	    $this->assign('list',$list);// 赋值数据集
+	    $count = $Photo->count();
+	    $Page = new \Think\Page($count,10);
+	    $show = $Page->show();
+	    $this->assign('page',$show);
+	    $this->display();
+	}
+
+	///////////////////文件上传函数///////////////////
+	public function upload(){
+	     $upload = new \Think\Upload();// 实例化上传类
+	     $oldFN = $_FILES;//获取图片的信息，在后面传给重命名函数
+	     $upload->maxSize = 3145728 ;// 设置附件上传大小
+	     $upload->exts = array('jpg', 'gif', 'png', 'jpeg');
+	                // 设置附件上传类型
+	     $upload->rootPath = './Public/Uploads/'; // 设置附件上传根目录
+	     $upload->replace = false;//如果存在同名文件就覆盖
+	     $upload->autoSub = false;
+	                //不使用子目录保存上传文件，即上传到指定的文件夹
+	     $info = $upload->upload();
+	     if(!$info) {// 上传错误提示错误信息
+	         $this->error($upload->getError());exit();
+	     }else{// 上传成功
+	         return $info;
+	     }
+ }
+
 	/////////////////////////////////////富文本编辑器/////////////////////////////////////
 	public function save_info(){  
-   $ueditor_config = json_decode(preg_replace("/\/\*[\s\S]+?\*\//", "",     file_get_contents("./Public/Ueditor/php/config.json")), true);  
+    $ueditor_config = json_decode(preg_replace("/\/\*[\s\S]+?\*\//", "",     file_get_contents("./Public/Ueditor/php/config.json")), true);  
         $action = $_GET['action'];  
         switch ($action) {  
             case 'config':  
